@@ -2,10 +2,10 @@
   "name": "alaga",
   "version": "1.0.0",
   "description": "Alaga is a simple, cloud-native tracker built for riders to keep their motorbikes in top shape without the headache.",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.ts",
-    "dev": "concurrently \"node --watch-path=. src/index.ts\" \"npx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --watch\"",
+    "start": "node src/index.js",
+    "dev": "concurrently \"node --watch-path=. src/index.js\" \"npx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --watch\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
