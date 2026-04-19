@@ -1,0 +1,29 @@
+{
+  "name": "alaga",
+  "version": "1.0.0",
+  "description": "Alaga is a simple, cloud-native tracker built for riders to keep their motorbikes in top shape without the headache.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node src/index.ts",
+    "dev": "concurrently \"node --watch-path=. src/index.ts\" \"npx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --watch\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.2",
+    "express": "^5.2.1",
+    "hbs": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/hbs": "^4.0.5",
+    "autoprefixer": "^10.5.0",
+    "concurrently": "^9.2.1",
+    "postcss": "^8.5.10",
+    "prettier-plugin-handlebars": "^0.0.1",
+    "tailwindcss": "^4.2.2"
+  }
+}
